@@ -1,3 +1,2 @@
 FROM cenots
-ADD hello /
-CMD ["/hello"]
+RUN yum -y install vim
